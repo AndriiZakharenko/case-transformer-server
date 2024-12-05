@@ -1,13 +1,6 @@
 # Case transformer server
 
-In this task you will learn how to work with `http` module in Node.js, creating your own simple server.
-
-## Requirements
-
-You need to create and export (as an object field) a `createServer` function inside `src/createServer.js`.
-Inside the function you should implement a server (from `http` module) and return it.
-
-You can create as many files as you want and split logic between them.
+Created an own simple server.
 
 ### Server requirements
 Server should have single function - converting text between cases.
@@ -108,12 +101,3 @@ Example:
 }
 ```
 
-## Guidelines to work on project
-- Fork this repo.
-- After cloning repo, run `npm i`.
-- Run `npm run test:watch` to have automatically rerun tests on code change.
-- Work until all tests are green.
-- Commit and push changes.
-- Make PR to Mate academy repo.
-
-> You can run `npm start` to have working server locally.
